@@ -691,7 +691,7 @@ function update() {
 		lon = (lon + lonFactor) % 360;
 		lat = lat + latFactor;
 		// console logs: coordinates for starting view of a location
-		//console.log("Camera Target: " + "lat: " + lat + "  lon: " + lon);
+		console.log("Camera Target: " + "lat: " + lat + "  lon: " + lon);
 
 		lat = Math.max(-35, Math.min(45, lat));
 		phi = THREE.Math.degToRad(90 - lat);
