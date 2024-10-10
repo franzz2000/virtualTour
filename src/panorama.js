@@ -701,8 +701,8 @@ function update() {
 		camera.target.z = 195 * Math.sin(phi) * Math.sin(theta);
 		camera.lookAt(camera.target);
 		// console logs: x, y, z coordinates for positioning of hotspots and transitions
-		//console.log("Positions [posX, posY, posZ]" + vectorToString(camera.target));
-		//console.log("-----------------------------");
+		console.log("Positions [posX, posY, posZ]" + vectorToString(camera.target));
+		console.log("-----------------------------");
 		renderer.render(scene, camera);
 	} else {
 		setMapandNavigationHidden(true);
