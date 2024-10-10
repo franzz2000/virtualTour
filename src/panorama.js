@@ -670,6 +670,8 @@ function animate() {
  * Redraw the scene with new calculated camera target, blur, ...
  */
 function update() {
+  console.log("Camera Target: " + vectorToString(camera.target));
+  console.log("-----------------------------");
 	if (!scene) {
 		return;
 	}
