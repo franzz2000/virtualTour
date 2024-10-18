@@ -1,21 +1,87 @@
 {
-	"startLocation": 2,
+	"startLocation": 1,
 	"maps": [
 		{
 			"uid": 1,
-			"image": "resources/maps/sampleMap.png",
+			"image": "resources/maps/sala.svg",
 			"mapSpots": [
 				{
 					"uid": 1,
-					"tooltip": "Map Spot 1",
-					"mapPosX": 100,
-					"mapPosY": 65
+					"tooltip": "Entrada",
+					"mapPosX": 190,
+					"mapPosY": 168
 				},
 				{
 					"uid": 2,
-					"tooltip": "Map Spot 2",
-					"mapPosX": 30,
-					"mapPosY": 65
+					"tooltip": "Sala central",
+					"mapPosX": 150,
+					"mapPosY": 95
+				},
+				{
+					"uid": 3,
+					"tooltip": "Pasillo 1",
+					"mapPosX": 275,
+					"mapPosY": 120
+				},
+				{
+					"uid": 4,
+					"tooltip": "Pasillo 2",
+					"mapPosX": 275,
+					"mapPosY": 80
+				},
+				{
+					"uid": 5,
+					"tooltip": "Pasillo 3",
+					"mapPosX": 275,
+					"mapPosY": 40
+				},
+				{
+					"uid": 6,
+					"tooltip": "Pasillo 4",
+					"mapPosX": 275,
+					"mapPosY": 10
+				},
+				{
+					"uid": 7,
+					"tooltip": "Pasillo 5",
+					"mapPosX": 240,
+					"mapPosY": 10
+				},
+				{
+					"uid": 8,
+					"tooltip": "Pasillo 6",
+					"mapPosX": 110,
+					"mapPosY": 10
+				},
+				{
+					"uid": 9,
+					"tooltip": "Sala secundaria",
+					"mapPosX": 50,
+					"mapPosY": 10
+				},
+				{
+					"uid": 10,
+					"tooltip": "Sala secundaria",
+					"mapPosX": 50,
+					"mapPosY": 50
+				},
+				{
+					"uid": 11,
+					"tooltip": "Sala secundaria",
+					"mapPosX": 50,
+					"mapPosY": 80
+				},
+				{
+					"uid": 12,
+					"tooltip": "Sala secundaria",
+					"mapPosX": 80,
+					"mapPosY": 80
+				},
+				{
+					"uid": 11,
+					"tooltip": "Sala secundaria",
+					"mapPosX": 110,
+					"mapPosY": 80
 				}
 			]
 		}
@@ -32,10 +98,10 @@
 			"transitions": [
 				{
 					"target_location": 2,
-					"tooltip": "Location 2",
-					"posX": 191,
-					"posY": -19,
-					"posZ": 33 
+					"tooltip": "Sala central",
+					"posX": 3.22,
+					"posY": -38.87674721135343,
+					"posZ": 191.08531740106176 
 				}
 			],
 			"cameraTargets": {
@@ -49,16 +115,21 @@
 				}
 			},
 		  "hotspots": [
-			{
-				"uid": 1,
-				"title": "Title",
-				"tooltip": "Information",
-			 	"text": "Example with audio.",
-				"audio": "resources/audio/audiosample",
-				"posX": -61,
-				"posY": 114,
-				"posZ": 145
-			}
+				{
+					"uid": 1,
+					"title": "Bienvenida",
+					"tooltip": "Bienvenida",
+					"text": "Bienvenido a la sala Borrón. En esta sala vamos a ver expuestos los cuadros de los alumnos de Taller 3 de 2024",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": ""
+						}
+					],
+					"posX": 191.12099360489637,
+					"posY": -19.02866545303412,
+			 		"posZ": 33.69978775235322
+					}
 		  ]
 		},
 		{
@@ -79,20 +150,73 @@
 				},
 				{
 					"target_location": 3,
-					"tooltip": "Pasillo",
-					"posX": 98.90,
-					"posY": -6.80,
-					"posZ": -167.91
+					"tooltip": "Pasillo 1",
+					"posX": 96.93337884201887,
+					"posY": -52.081178232723246,
+					"posZ": -160.98593398232333
 				}
 			],
 	 		"cameraTargets": {
 				"1": {
-					"lat": 0.16,
-					"lon": 202.5
+					"lat": 2.509240246406571,
+					"lon": 217.05312500000002
 				},
 				"-1": {
 			 		"lat": 14,
 					"lon": 252
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Bienvenida",
+					"tooltip": "Bienvenida",
+					"text": "Bienvenido a la sala Borrón. En esta sala vamos a exponer los cuadros de los alumnos de Taller 3 de 2024",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": 191.12099360489637,
+					"posY": -19.02866545303412,
+			 		"posZ": 33.69978775235322
+					}
+	 		]
+		},
+		{
+			"uid": 3,
+			"image": {
+				"default": "resources/panos/default/image07.jpg",
+				"hq": "resources/panos/hq/image07.jpg",
+				"mobile": "resources/panos/mobile/image07.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Sala central",
+					"posX": 21.095458283165442,
+					"posY": -40.27272628009946,
+					"posZ": -189.62618268000708
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
 				}
 			},
 			"hotspots": [
@@ -114,11 +238,11 @@
 	 		]
 		},
 		{
-			"uid": 3,
+			"uid": 4,
 			"image": {
-				"default": "resources/panos/default/image07.jpg",
-				"hq": "resources/panos/hq/image07.jpg",
-				"mobile": "resources/panos/mobile/image07.jpg"
+				"default": "resources/panos/default/image08.jpg",
+				"hq": "resources/panos/hq/image08.jpg",
+				"mobile": "resources/panos/mobile/image08.jpg"
 			},
 			"mapUid": 1,
 			"transitions": [
@@ -128,6 +252,385 @@
 					"posX": 11.90,
 					"posY": -3.40,
 					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Title",
+					"tooltip": "Information",
+					"text": "Example with image. Some text information here. <a href=\"http://www.digitale-akademie.de/\"  target=\"_blank\">Sample Link, opens in a new window.</a>",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": -38,
+					"posY": 107,
+			 		"posZ": -157
+					}
+        ]
+    },
+		{
+			"uid": 5,
+			"image": {
+				"default": "resources/panos/default/image09.jpg",
+				"hq": "resources/panos/hq/image09.jpg",
+				"mobile": "resources/panos/mobile/image09.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 1",
+					"posX": 11.90,
+					"posY": -3.40,
+					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Title",
+					"tooltip": "Information",
+					"text": "Example with image. Some text information here. <a href=\"http://www.digitale-akademie.de/\"  target=\"_blank\">Sample Link, opens in a new window.</a>",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": -38,
+					"posY": 107,
+			 		"posZ": -157
+					}
+	 		]
+		},
+		{
+			"uid": 6,
+			"image": {
+				"default": "resources/panos/default/image10.jpg",
+				"hq": "resources/panos/hq/image10.jpg",
+				"mobile": "resources/panos/mobile/image10.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 1",
+					"posX": 11.90,
+					"posY": -3.40,
+					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Title",
+					"tooltip": "Information",
+					"text": "Example with image. Some text information here. <a href=\"http://www.digitale-akademie.de/\"  target=\"_blank\">Sample Link, opens in a new window.</a>",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": -38,
+					"posY": 107,
+			 		"posZ": -157
+					}
+	 		]
+		},
+		{
+			"uid": 7,
+			"image": {
+				"default": "resources/panos/default/image11.jpg",
+				"hq": "resources/panos/hq/image11.jpg",
+				"mobile": "resources/panos/mobile/image11.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 1",
+					"posX": 11.90,
+					"posY": -3.40,
+					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Title",
+					"tooltip": "Information",
+					"text": "Example with image. Some text information here. <a href=\"http://www.digitale-akademie.de/\"  target=\"_blank\">Sample Link, opens in a new window.</a>",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": -38,
+					"posY": 107,
+			 		"posZ": -157
+					}
+	 		]
+		},
+		{
+			"uid": 8,
+			"image": {
+				"default": "resources/panos/default/image12.jpg",
+				"hq": "resources/panos/hq/image12.jpg",
+				"mobile": "resources/panos/mobile/image12.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 1",
+					"posX": 11.90,
+					"posY": -3.40,
+					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Title",
+					"tooltip": "Information",
+					"text": "Example with image. Some text information here. <a href=\"http://www.digitale-akademie.de/\"  target=\"_blank\">Sample Link, opens in a new window.</a>",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": -38,
+					"posY": 107,
+			 		"posZ": -157
+					}
+	 		]
+		},
+		{
+			"uid": 9,
+			"image": {
+				"default": "resources/panos/default/image13.jpg",
+				"hq": "resources/panos/hq/image13.jpg",
+				"mobile": "resources/panos/mobile/image13.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 1",
+					"posX": 11.90,
+					"posY": -3.40,
+					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Title",
+					"tooltip": "Information",
+					"text": "Example with image. Some text information here. <a href=\"http://www.digitale-akademie.de/\"  target=\"_blank\">Sample Link, opens in a new window.</a>",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": -38,
+					"posY": 107,
+			 		"posZ": -157
+					}
+	 		]
+		},
+		{
+			"uid": 10,
+			"image": {
+				"default": "resources/panos/default/image14.jpg",
+				"hq": "resources/panos/hq/image14.jpg",
+				"mobile": "resources/panos/mobile/image14.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 1",
+					"posX": 11.90,
+					"posY": -3.40,
+					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
+				}
+			],
+	 		"cameraTargets": {
+				"1": {
+					"lat": 2.5,
+					"lon": 227
+				},
+				"-1": {
+			 		"lat": 2.5,
+					"lon": 227 
+				}
+			},
+			"hotspots": [
+				{
+					"uid": 1,
+					"title": "Title",
+					"tooltip": "Information",
+					"text": "Example with image. Some text information here. <a href=\"http://www.digitale-akademie.de/\"  target=\"_blank\">Sample Link, opens in a new window.</a>",
+					"images": [
+						{
+							"figure": "resources/images/imagesample.png",
+							"caption": "Image credits or description. © Brunhilde Escherich"
+						}
+					],
+					"posX": -38,
+					"posY": 107,
+			 		"posZ": -157
+					}
+	 		]
+		},
+		{
+			"uid": 11,
+			"image": {
+				"default": "resources/panos/default/image15.jpg",
+				"hq": "resources/panos/hq/image15.jpg",
+				"mobile": "resources/panos/mobile/image15.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 1",
+					"posX": 11.90,
+					"posY": -3.40,
+					"posZ": -194.60
+				},
+				{
+
+					"target_location": 4,
+					"tooltip": "Pasillo",
+					"posX": 168.87,
+					"posY": -37.70,
+					"posZ": 90.37
 				}
 			],
 	 		"cameraTargets": {
