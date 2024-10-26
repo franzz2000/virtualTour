@@ -71,57 +71,62 @@
 <!-- Container for panorama-->
 <div id="panorama">
 
-	<!-- Map image -->
-	<figure id="map">
-		<img id="mapImage" src="" alt="Map"/>
-	</figure>
+  <!-- Map image -->
+  <figure id="map">
+    <img id="mapImage" src="" alt="Map" />
+  </figure>
 
-	<!-- Full screen -->
-	<figure id="fullscreen">
-		<img src="resources/icons/gui_fullscreen_icon.png" alt="Enter / Leave Fullscreen Mode"/>
-	</figure>
+  <!-- Full screen -->
+  <figure id="fullscreen">
+    <img src="resources/icons/gui_fullscreen_icon.png" alt="Enter / Leave Fullscreen Mode" />
+  </figure>
 
-	<!-- Scene switch: enables to create a tour with two connected spaces; remove comments to enable scene switch -->
-	<!--
+  <!-- Scene switch: enables to create a tour with two connected spaces; remove comments to enable scene switch -->
+  <!--
 	<p id="sceneSwitch">
 		Switch Scene
 	</p> -->
 
 
-	<!-- Tool Tip; loaded from JSON -->
-	<p id="toolTip"></p>
+  <!-- Tool Tip; loaded from JSON -->
+  <p id="toolTip"></p>
 
-	<!-- Information pop-up -->
-	<article id="infoView">
-		<figure id="infoCloseButton">
-			<img src="resources/icons/close.png" alt="Close information pop-up"
-				 title="Close information pop-up">
-		</figure>
+  <!-- Information pop-up -->
+  <article id="infoView">
+    <figure id="infoCloseButton">
+      <img src="resources/icons/close.png" alt="Close information pop-up" title="Close information pop-up">
+    </figure>
 
-		<!-- Title; loaded from JSON-->
-		<h1 id="infoTitle">
-		</h1>
+    <!-- Title; loaded from JSON-->
+    <h1 id="infoTitle">
+    </h1>
 
-		<!-- Image and image caption; loaded from JSON -->
-		<figure id="infoImageBox">
-			<img src="" alt="Image" id="infoImage"/>
-			<figcaption id="infoCaption">
-			</figcaption>
-		</figure>
+    <!-- Image and image caption; loaded from JSON -->
+    <figure id="infoImageBox">
+      <img src="" alt="Image" id="infoImage" />
+      <figcaption id="infoCaption">
+      </figcaption>
+    </figure>
 
-		<!-- Audio file; loaded from JSON -->
-		<div id="audioPlayer">
-			<audio id="audioControls" controls>
-				<source src="" type="audio/ogg" preload="auto" id="audioSourceOgg">
-				<source src="" type="audio/mpeg" preload="auto" id="audioSourceMp3">
-			</audio>
-		</div>
+    <!-- Audio file; loaded from JSON -->
+    <div id="audioPlayer">
+      <audio id="audioControls" controls>
+        <source src="" type="audio/ogg" preload="auto" id="audioSourceOgg">
+        <source src="" type="audio/mpeg" preload="auto" id="audioSourceMp3">
+      </audio>
+    </div>
 
-		<!-- Textual information; loaded from JSON -->
-		<p id="infoContent">
-		</p>
-	</article>
+    <!-- Textual information; loaded from JSON -->
+    <p id="infoContent">
+    </p>
+  </article>
 
+  <div id="cross_container">
+    <figure class="crossButton" id="cross">
+      <img src="resources/images/cruz.svg" alt="Zoom out" />
+      <div id="crossText"></div>
+    </figure>
+  </div>
 </div>
 
 
@@ -149,6 +154,7 @@
 		<img src="resources/icons/gui_zoomout_icon.png" alt="Zoom out"/>
 	</figure>
 </div>
+
 
 
 </body>

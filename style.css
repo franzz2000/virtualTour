@@ -92,6 +92,29 @@ dt:after {
 	right: 240px;
 }
 
+#cross_container {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+#cross {
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#crossText {
+	position: absolute;
+	top: 160%;
+	left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+	color: white;
+	font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /**
 	FURTHER "ON-SCREEN" BUTTONS
 	**/

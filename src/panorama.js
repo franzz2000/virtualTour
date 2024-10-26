@@ -670,8 +670,8 @@ function animate() {
  * Redraw the scene with new calculated camera target, blur, ...
  */
 function update() {
-  console.log("Camera Target: " + vectorToString(camera.target));
-  console.log("-----------------------------");
+  //console.log("Camera Target: " + vectorToString(camera.target));
+  //console.log("-----------------------------");
 	if (!scene) {
 		return;
 	}
@@ -701,10 +701,13 @@ function update() {
 		camera.target.x = 195 * Math.sin(phi) * Math.cos(theta);
 		camera.target.y = 195 * Math.cos(phi);
 		camera.target.z = 195 * Math.sin(phi) * Math.sin(theta);
+    div = _("crossText");
+    div.innerHTML = "Camera Target: " + vectorToString(camera.target);
+		div.innerHTML += "<br/>Positions: [posX, posY, posZ]" + vectorToString(camera.target);
 		camera.lookAt(camera.target);
 		// console logs: x, y, z coordinates for positioning of hotspots and transitions
-		console.log("Positions [posX, posY, posZ]" + vectorToString(camera.target));
-		console.log("-----------------------------");
+		//console.log("Positions [posX, posY, posZ]" + vectorToString(camera.target));
+		//console.log("-----------------------------");
 		renderer.render(scene, camera);
 	} else {
 		setMapandNavigationHidden(true);
