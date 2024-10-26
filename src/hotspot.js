@@ -16,7 +16,6 @@ Hotspot = function (parameters) {
 	this.infoTitle = parameters.hasOwnProperty('title') ? parameters['title'] : "";
 	this.infoImages = parameters.hasOwnProperty('images') ? parameters['images'] : null;
 
-
 	this.tooltip = parameters.hasOwnProperty('tooltip') ? parameters['tooltip'] : null;
 	this.audio = parameters.hasOwnProperty('audio') ? parameters['audio'] : null;
 
@@ -25,11 +24,10 @@ Hotspot = function (parameters) {
 	var material = new THREE.MeshBasicMaterial({
 		map: THREE.ImageUtils.loadTexture("resources/icons/information.png"),
 		transparent: true
-
 	});
+
 	THREE.Mesh.call(this, geometry, material);
 	this.position.set(parameters.position.x, parameters.position.y, parameters.position.z);
-
 };
 
 Hotspot.prototype = Object.create(THREE.Mesh.prototype);
@@ -40,6 +38,7 @@ Hotspot.prototype = Object.create(THREE.Mesh.prototype);
 Hotspot.prototype.onClick = function (event) {
 	//init info view
 	var infoView = _('infoView');
+  
 
 	//set title
 	var infoTitle = _('infoTitle');

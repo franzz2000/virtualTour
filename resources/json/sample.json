@@ -70,18 +70,6 @@
 					"tooltip": "Sala secundaria",
 					"mapPosX": 50,
 					"mapPosY": 80
-				},
-				{
-					"uid": 12,
-					"tooltip": "Sala secundaria",
-					"mapPosX": 80,
-					"mapPosY": 80
-				},
-				{
-					"uid": 11,
-					"tooltip": "Sala secundaria",
-					"mapPosX": 110,
-					"mapPosY": 80
 				}
 			]
 		}
@@ -99,9 +87,9 @@
 				{
 					"target_location": 2,
 					"tooltip": "Sala central",
-					"posX": 3.22,
-					"posY": -38.87674721135343,
-					"posZ": 191.08531740106176 
+					"posX": 3.05,
+					"posY": -28.18,
+					"posZ": 192.93 
 				}
 			],
 			"cameraTargets": {
@@ -117,12 +105,12 @@
 		  "hotspots": [
 				{
 					"uid": 1,
-					"title": "Bienvenida",
+					"title": "mirar 2 veces",
 					"tooltip": "Bienvenida",
-					"text": "Bienvenido a la sala Borrón. En esta sala vamos a ver expuestos los cuadros de los alumnos de Taller 3 de 2024",
+					"text": "Escuela Municipal de Artes Plásticas y Escénicas, Taller 3 - 2024. Del 27 de junio al 10 de julio de 2024, en la sala Borrón.",
 					"images": [
 						{
-							"figure": "resources/images/imagesample.png",
+							"figure": "resources/images/bienvenida.jpg",
 							"caption": ""
 						}
 					],
@@ -151,9 +139,9 @@
 				{
 					"target_location": 3,
 					"tooltip": "Pasillo 1",
-					"posX": 96.93337884201887,
-					"posY": -52.081178232723246,
-					"posZ": -160.98593398232333
+					"posX": 82.56,
+					"posY": -25.37,
+					"posZ": -174.82
 				}
 			],
 	 		"cameraTargets": {
@@ -169,18 +157,17 @@
 			"hotspots": [
 				{
 					"uid": 1,
-					"title": "Bienvenida",
-					"tooltip": "Bienvenida",
-					"text": "Bienvenido a la sala Borrón. En esta sala vamos a exponer los cuadros de los alumnos de Taller 3 de 2024",
+					"title": "Artistas",
+					"tooltip": "Artistas",
+					"text": "",
 					"images": [
 						{
-							"figure": "resources/images/imagesample.png",
-							"caption": "Image credits or description. © Brunhilde Escherich"
+							"figure": "resources/images/artistas.jpg"
 						}
 					],
-					"posX": 191.12099360489637,
-					"posY": -19.02866545303412,
-			 		"posZ": 33.69978775235322
+					"posX": -178.41,
+					"posY": 1.02,
+			 		"posZ": 78.68
 					}
 	 		]
 		},
@@ -196,17 +183,17 @@
 				{
 					"target_location": 2,
 					"tooltip": "Sala central",
-					"posX": 21.095458283165442,
-					"posY": -40.27272628009946,
-					"posZ": -189.62618268000708
+					"posX": 4.06,
+					"posY": -28.64,
+					"posZ": -192.84
 				},
 				{
 
 					"target_location": 4,
 					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"posX": 181.21,
+					"posY": -22.96,
+					"posZ": 68.27
 				}
 			],
 	 		"cameraTargets": {
@@ -247,19 +234,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 3,
+					"tooltip": "Pasillo 1",
+					"posX": -6.39,
+					"posY": -23.64,
+					"posZ": -193.45
 				},
 				{
 
-					"target_location": 4,
-					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"target_location": 5,
+					"tooltip": "Pasillo 3",
+					"posX": 62.28,
+					"posY": -20.03,
+					"posZ": 183.70 
 				}
 			],
 	 		"cameraTargets": {
@@ -300,19 +287,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 4,
+					"tooltip": "Pasillo 2",
+					"posX": 170.91,
+					"posY": -9.07,
+					"posZ": -93.45
 				},
 				{
 
-					"target_location": 4,
-					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"target_location": 6,
+					"tooltip": "Pasillo 4",
+					"posX": -125.75,
+					"posY": -23.96,
+					"posZ": 147.10
 				}
 			],
 	 		"cameraTargets": {
@@ -353,19 +340,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 5,
+					"tooltip": "Pasillo 4",
+					"posX": 121.67,
+					"posY": -30.53,
+					"posZ": -149.29
 				},
 				{
 
-					"target_location": 4,
-					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"target_location": 7,
+					"tooltip": "Pasillo 6",
+					"posX": -42.28,
+					"posY": -9.87,
+					"posZ": 190.11
 				}
 			],
 	 		"cameraTargets": {
@@ -406,19 +393,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 6,
+					"tooltip": "Pasillo 4",
+					"posX": 180.96,
+					"posY": -22.77,
+					"posZ": 68.99
 				},
 				{
 
-					"target_location": 4,
-					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"target_location": 8,
+					"tooltip": "Pasillo 6",
+					"posX": -188.96,
+					"posY": -9.19,
+					"posZ": -47.26
 				}
 			],
 	 		"cameraTargets": {
@@ -459,19 +446,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 7,
+					"tooltip": "Pasillo 6",
+					"posX": 98.06,
+					"posY": -9.36,
+					"posZ": 168.29
 				},
 				{
 
-					"target_location": 4,
+					"target_location": 9,
 					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"posX": -106.27,
+					"posY": -11.48,
+					"posZ": -163.10
 				}
 			],
 	 		"cameraTargets": {
@@ -512,19 +499,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 8,
+					"tooltip": "Pasillo 6",
+					"posX": -149.18,
+					"posY": -3.68,
+					"posZ": 125.53
 				},
 				{
 
-					"target_location": 4,
-					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"target_location": 10,
+					"tooltip": "Pasillo 8",
+					"posX": -128.43,
+					"posY": -10.15,
+					"posZ": -146.38
 				}
 			],
 	 		"cameraTargets": {
@@ -565,19 +552,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 9,
+					"tooltip": "Pasillo 8",
+					"posX": 137.70,
+					"posY": -27.62,
+					"posZ": -135.28
 				},
 				{
 
-					"target_location": 4,
-					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"target_location": 11,
+					"tooltip": "Pasillo 10",
+					"posX": -125.82,
+					"posY": -15.56,
+					"posZ": -148.16
 				}
 			],
 	 		"cameraTargets": {
@@ -618,19 +605,19 @@
 			"mapUid": 1,
 			"transitions": [
 				{
-					"target_location": 2,
-					"tooltip": "Location 1",
-					"posX": 11.90,
-					"posY": -3.40,
-					"posZ": -194.60
+					"target_location": 10,
+					"tooltip": "Pasillo 8",
+					"posX": -140.96,
+					"posY": -6.17,
+					"posZ": 134.59
 				},
 				{
 
-					"target_location": 4,
-					"tooltip": "Pasillo",
-					"posX": 168.87,
-					"posY": -37.70,
-					"posZ": 90.37
+					"target_location": 2,
+					"tooltip": "Sala central",
+					"posX": -144.75,
+					"posY": -11.38,
+					"posZ": -130.16
 				}
 			],
 	 		"cameraTargets": {
