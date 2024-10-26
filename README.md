@@ -2,6 +2,8 @@
 
 # virtualTour - Generic Software for virtual tours
 
+fork de ![digiacademy/virtualTour](https://github.com/digicademy/virtualTour)
+
 virtualTour is a generic software that allows to create custom virtual tours and publish them on the web.
 
 virtualTour is written in JavaScript.  It contains styles and icons, but can be adjusted according to own needs. The package  offers  a  simple  tour containing  some  exemplary  content  and  schemas 
