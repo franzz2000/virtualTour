@@ -90,6 +90,13 @@
 					"posX": 3.05,
 					"posY": -28.18,
 					"posZ": 192.93 
+				},
+				{
+					"target_location": 3,
+					"tooltip": "Pasillo 1",
+					"posX": -161.99,
+					"posY": -31.00,
+					"posZ": 104.03 
 				}
 			],
 			"cameraTargets": {
@@ -201,13 +208,17 @@
 				{
 
 					"target_location": 4,
-					"tooltip": "Pasillo",
+					"tooltip": "Pasillo 2",
 					"posX": 181.21,
 					"posY": -22.96,
 					"posZ": 68.27
 				}
 			],
 	 		"cameraTargets": {
+				"1": {
+					"lat": -11.41,
+					"lon": 67.44 
+				},
 				"2": {
 					"lat": -5.07,
 					"lon": 206.08
@@ -364,16 +375,16 @@
 				{
 
 					"target_location": 7,
-					"tooltip": "Pasillo 6",
+					"tooltip": "Pasillo 5",
 					"posX": -42.28,
 					"posY": -9.87,
 					"posZ": 190.11
 				}
 			],
 	 		"cameraTargets": {
-				"1": {
-					"lat": 2.5,
-					"lon": 227
+				"5": {
+					"lat": -3.13,
+					"lon": 102.57
 				},
 				"-1": {
 			 		"lat": 2.5,
@@ -470,7 +481,7 @@
 				{
 
 					"target_location": 9,
-					"tooltip": "Pasillo",
+					"tooltip": "Pasillo 7",
 					"posX": -106.27,
 					"posY": -11.48,
 					"posZ": -163.10
@@ -576,7 +587,7 @@
 				{
 
 					"target_location": 11,
-					"tooltip": "Pasillo 10",
+					"tooltip": "Pasillo 9",
 					"posX": -125.82,
 					"posY": -15.56,
 					"posZ": -148.16
