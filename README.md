@@ -2,7 +2,7 @@
 
 # virtualTour - Generic Software for virtual tours
 
-fork de ![digiacademy/virtualTour](https://github.com/digicademy/virtualTour)
+Fork de ![digiacademy/virtualTour](https://github.com/digicademy/virtualTour)
 
 virtualTour is a generic software that allows to create custom virtual tours and publish them on the web.
 
